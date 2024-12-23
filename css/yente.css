@@ -1,0 +1,34 @@
+body{
+    direction: rtl;
+    margin-right: 200px;
+}
+
+#pagination {
+    position: fixed;
+    bottom: 150px;
+    right: 450px;
+}
+
+.result-div{
+    position: fixed;
+    left: 100px;
+    top: 100px;
+}
+.all-titiles{
+    display:flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.all-titiles h3:first-of-type{
+    margin-left: 150px;
+}
+.one-question{
+    display: flex;
+    flex-direction: row;
+    gap: 140px;
+}
+.all-radios{
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+}
